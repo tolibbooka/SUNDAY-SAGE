@@ -23,12 +23,8 @@ const Navbar2 = () => {
                     <Route path="/Worker" element={<Worker />} />
                     <Route path="/Chart" element={<Chart />} />
                     <Route path="/Invoices" element={<Invoices />} />
-                    <Route path="/Goals" element={<Goals />} />
-                    <Route path="/Settings" element={<Settings />} />
                 </Routes>
                 <Body/>
-                
-             
             </Router>
         </div>
     );
